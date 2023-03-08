@@ -11,7 +11,7 @@ SI = Heart Rate / Systolic BP (mmHg)
 
 Normal shock index is 0.5-0.7, whereas higher values are more sensitive in the detection of occult shock, transfusion requirements, and post-intubation hypotension than either vital sign in isolation.
 
-
+Database used for this project was the *MIMIC-IV Waveform Database* which is a large collection of physiological signals and measurements from patients in intensive care units, including electrocardiograms, photoplethysmograms, respiration, invasive and non-invasive blood pressure, and more.
 
 We will be using a 3 part process to indicated a critically ill patient using PPG signals:
 
