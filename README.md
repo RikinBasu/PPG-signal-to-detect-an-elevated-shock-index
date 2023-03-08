@@ -22,6 +22,7 @@ After building these models and comparing their performance we will select the m
 We first use the records_suitable_for_analysis.ipynb to analyse and choose the suitable records of the signals of each patient. We chack for missing signals and making sure each signal is atleast 2 minutes long so that its suitable for analysis.
 
 We then move on to DeepLearningDatasetPreparation.ipynb where we do analysis on the suitable signals to detect the heart beat and the blood pressure and then write those features into a dataframe for further use in modeling.
+
 Now we finally start with the Neural networks by using Deeplearningproject_DNNmodels(final).ipynb where we implement a self tuned DNN and a Hyper-tuned DNN.
 
 Finally as a baseline comparison we also implement a machine learning model ( Random Forest Classifer) using the Random_forest_classifier.ipynb.
